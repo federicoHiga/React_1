@@ -111,7 +111,7 @@ function App() {
    * registrarColaborador 
    * 1) tiene como parametro "colaborador" el cual va a guardar los datos q le pasemos cuando la llamemos en el form
    * 2) al hacer la llamda de useState "setColaboradores" estamos ahora si conectado el hook con el form, lo q le pasesmos como parametro va a ser el nuevo estado del hook. En este caso lo q ya hubiese en el hook + "colaborador"
-   * 2b) el metodo Spread operator "...variable/array/objeto" copia el contenido en este caso del hook "colaboradores" 
+   * 2b) el metodo Spread operator "...variable-array-objeto" copia el contenido en este caso del hook "colaboradores" 
    * 3) asi la funcion se "completa" cuando se ejecuta el fomr, mas precisamente el manejarEnvio() q es donde se llama esta funcion
    */
   const registrarColaborador=(colaborador)=>{
